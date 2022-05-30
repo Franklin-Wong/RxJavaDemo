@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.integration.rxjavademo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RxJavaDemo">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".demo.RxJavaThreadSourceActivity2"/>
+        <activity android:name=".demo.RxJavaThreadSourceActivity1"/>
+        <activity android:name=".source.SourceActivity4"/>
+        <activity android:name=".source.SourceActivity3"/>
+        <activity android:name=".source.SourceActivity2"/>
+        <activity android:name=".source.SourceActivity" />
+        <activity android:name=".demo.RxJavaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
